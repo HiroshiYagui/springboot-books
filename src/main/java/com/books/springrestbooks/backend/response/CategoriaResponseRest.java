@@ -1,4 +1,4 @@
-package com.books.springrestbooks.response;
+package com.books.springrestbooks.backend.response;
 
 public class CategoriaResponseRest extends ResponseRest {
     private CategoriaResponse categoriaResponse=new CategoriaResponse();

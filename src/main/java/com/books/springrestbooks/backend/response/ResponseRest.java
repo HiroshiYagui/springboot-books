@@ -1,4 +1,4 @@
-package com.books.springrestbooks.response;
+package com.books.springrestbooks.backend.response;
 
 import java.util.ArrayList;
 import java.util.HashMap;

@@ -1,4 +1,4 @@
-package com.books.springrestbooks.model;
+package backend.model;
 
 import java.io.Serializable;
 
@@ -9,11 +9,11 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="Categorias")
+@Table(name="categorias")
 
 public class Categoria implements Serializable {
     
-    private static final long SerialVersionUID=-2164553723990982332L;
+    private static final long serialVersionUID=-2164553723990982332L;
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     

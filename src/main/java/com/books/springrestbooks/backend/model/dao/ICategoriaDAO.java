@@ -1,6 +1,6 @@
-package com.books.springrestbooks.model.dao;
+package com.books.springrestbooks.backend.model.dao;
 
-import com.books.springrestbooks.model.Categoria;
+import com.books.springrestbooks.backend.model.Categoria;
 
 import org.springframework.data.repository.CrudRepository;
 

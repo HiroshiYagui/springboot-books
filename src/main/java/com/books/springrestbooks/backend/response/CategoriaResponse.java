@@ -1,8 +1,8 @@
-package com.books.springrestbooks.response;
+package com.books.springrestbooks.backend.response;
 
 import java.util.List;
 
-import com.books.springrestbooks.model.Categoria;
+import com.books.springrestbooks.backend.model.Categoria;
 
 public class CategoriaResponse {
     private List<Categoria> categoria;
