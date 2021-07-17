@@ -1,4 +1,4 @@
-package backend.model;
+package com.books.springrestbooks.backend.model;
 
 import java.io.Serializable;
 
