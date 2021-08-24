@@ -2,7 +2,6 @@ package com.books.springrestbooks.backend.model;
 
 import java.io.Serializable;
 
-import javax.annotation.Generated;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
@@ -12,7 +11,6 @@ import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.fasterxml.jackson.annotation.JsonIgnoreType;
 
 @Entity
 @Table(name="libros")

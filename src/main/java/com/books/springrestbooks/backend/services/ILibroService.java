@@ -1,20 +1,20 @@
 package com.books.springrestbooks.backend.services;
 
-import com.books.springrestbooks.backend.response.CategoriaResponseRest;
+import com.books.springrestbooks.backend.response.LibroResponseRest;
 import com.books.springrestbooks.backend.model.Libro;
 
 import org.springframework.http.ResponseEntity;
 
-public interface ICategoriaService {
+public interface ILibroService {
     
-    public ResponseEntity<CategoriaResponseRest> buscarLibros();
+    public ResponseEntity<LibroResponseRest> buscarLibros();
 
-    public ResponseEntity<CategoriaResponseRest> buscarporId(long id);
+    public ResponseEntity<LibroResponseRest> buscarporId(long id);
 
-    public ResponseEntity<CategoriaResponseRest> crear(Libro libro);
+    public ResponseEntity<LibroResponseRest> crear(Libro libro);
 
-    public ResponseEntity<CategoriaResponseRest> actualizar(Libro libro, long id);
+    public ResponseEntity<LibroResponseRest> actualizar(Libro libro, long id);
 
-    public ResponseEntity<CategoriaResponseRest> eliminar(long id);
+    public ResponseEntity<LibroResponseRest> eliminar(long id);
 
 }

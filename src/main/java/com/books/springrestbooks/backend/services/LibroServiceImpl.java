@@ -166,7 +166,6 @@ public class LibroServiceImpl implements ILibroService{
     {
         Log.info("Inicio metodo eliminar");
         LibroResponseRest response=new LibroResponseRest();
-        List<Libro> list=new ArrayList<>();
 
         try{
 

@@ -166,7 +166,6 @@ public class CategoriaServiceImpl implements ICategoriaService{
     {
         Log.info("Inicio metodo eliminar");
         CategoriaResponseRest response=new CategoriaResponseRest();
-        List<Categoria> list=new ArrayList<>();
 
         try{
 
